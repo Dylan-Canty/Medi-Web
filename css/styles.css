@@ -1,0 +1,146 @@
+@font-face{
+    font-family: bitter-bold;
+    src: url(fonts/Bitter-Bold.ttf);
+}
+@font-face{
+    font-family: raleway;
+    src: url(fonts/Raleway-Light.ttf);
+}
+html, body{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.flex-center-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+select{
+    display: initial;
+}
+li{
+    list-style: none;
+}
+header.row{
+    margin: 0;
+}
+header{
+    width: 100%;
+    font-size: 30pt;
+    font-family: bitter-bold;
+    height: 80px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+header div{
+    margin: 7px;
+}
+.section-title{
+    font-family: raleway;
+    margin-top: 50px;
+    font-size: 20pt;
+}
+.raleway-font{
+    font-family: raleway;
+}
+/**************FOOTER*****************/
+.footer{
+    margin: 0;
+    margin-top: 10px;
+    height: 100px;
+    padding: 20px;
+}
+.footer *{
+    color: white;
+}
+.footer .social img{
+    width: 30px;
+    height: 25px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+.footer .social li{
+    height: 30px;
+    padding: 10px;
+}
+.footer .social a{
+    line-height: 30px;
+}
+/****************MODAL**********************/
+.modal .modal-close{
+    margin: 10px;
+}
+.modal div{
+    width: 100%;
+    min-height: 50px;
+}
+.modal input{
+    border-bottom: solid 1px grey !important;
+}
+.modal textarea{
+    border: none;
+    border-bottom: solid 1px grey !important;
+    padding-top: 5px;
+    height: 100px;
+    outline: none;
+}
+
+.content{
+    min-height: calc(100% - 240px);
+    display: block;
+}
+/*****LOG IN*********************************/
+.login{
+    width: 300px;
+    margin: 50px auto;
+}
+.login img{
+    width: 80px;
+    height: 80px;
+}
+.login .input-field .password{
+    padding: 7px 10px;
+}
+.login .password input, form input{
+    border-bottom: solid 1px grey !important;
+}
+form{
+    margin: 30px auto !important;
+}
+
+.tabs{
+    margin: 10px 0px;
+}
+.content.c2{
+    min-height: calc(100% - 190px);
+}
+.tabs .indicator{
+    background-color: slateblue;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active, .tabs .tab a {
+    color: slateblue;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: transparent;
+}
+
+table{
+    width: 100% !important;
+}
+
+#user-profile{
+    margin-top: -20px;
+    font-size: 12pt;
+}
